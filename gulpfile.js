@@ -76,7 +76,7 @@ gulp.task('watch', function () {
 })
 
 
-gulp.task("deploy", function () {
+gulp.task("deploy", function() {
     ghpages.publish("dist")
 })
 
